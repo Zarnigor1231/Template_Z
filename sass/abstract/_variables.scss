@@ -1,0 +1,36 @@
+* , *::after , *::before{
+    box-sizing: border-box;
+}
+
+body{
+    @include row;
+    font-family: sans-serif;
+}
+
+// h1,h2,h3,h4{
+//     @include row;
+// }
+
+ul, ol{
+    @include row;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}

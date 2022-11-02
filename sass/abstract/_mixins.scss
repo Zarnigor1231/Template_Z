@@ -1,0 +1,9 @@
+@mixin row {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin  flex {
+    display: flex;
+    align-items: center;
+}
